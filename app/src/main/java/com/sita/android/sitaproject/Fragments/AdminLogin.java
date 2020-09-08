@@ -46,7 +46,7 @@ import okhttp3.Response;
  */
 public class AdminLogin extends Fragment{
 
-    private  static final String LoginURL = "http://odsgcard.com.ng/android_project/AdminLogin.php";
+    private  static final String LoginURL = "http://sita.epizy.com/AdminLogin.php";
     View v;
     Button Login;
     TextView forgotpass;
@@ -99,7 +99,7 @@ public class AdminLogin extends Fragment{
                             AdminUserName = username.getText().toString();
                             AdminPassword = password.getText().toString();
 
-                            // Toast.makeText(getContext(),AdminUserName+" "+AdminPassword,Toast.LENGTH_LONG).show();
+                            Toast.makeText(getContext(),AdminUserName+" "+AdminPassword,Toast.LENGTH_LONG).show();
                             adminLoginHandler handler = new adminLoginHandler();
                             handler.execute();
                         }
@@ -255,6 +255,9 @@ public class AdminLogin extends Fragment{
 
             } catch (IOException e) {
                 e.printStackTrace();
+
+                System.out.println("Message  "+ e.getMessage());
+                System.out.println("Local Message  "+ e.getMessage());
             }
             return null;
         }

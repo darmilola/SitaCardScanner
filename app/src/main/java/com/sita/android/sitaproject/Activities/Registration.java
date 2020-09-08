@@ -76,7 +76,7 @@ secondpage.OnPassLocalGovernmentFlag,secondpage.OnPassMaritalFlag,secondpage.OnP
     static int AmInPageThreeFlag = 0;
     AlertDialog b;
 
-    String url = "http://odsgcard.com.ng/android_project/Registercitizen.php";
+    String url = "http://sita.epizy.com/Registercitizen.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

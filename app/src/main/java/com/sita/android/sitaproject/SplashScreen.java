@@ -122,7 +122,7 @@ public class SplashScreen extends AppCompatActivity {
 
         String resp;
         String data;
-        private  static final String LoginURL = "http://odsgcard.com.ng/android_project/AdminLogin.php";
+        private  static final String LoginURL = "http://sita.epizy.com/AdminLogin.php";
         String prompt;
 
         protected void onPreExecute() {

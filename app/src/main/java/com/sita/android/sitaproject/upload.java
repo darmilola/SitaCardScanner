@@ -118,7 +118,7 @@ public class upload extends AppCompatActivity {
                     e.printStackTrace();
                 }*/
 
-                url = "http://damilolaakinterinwa.000webhostapp.com/Citizen/profilepictureupload.php";
+                url = "http://sita.epizy.com/profilepictureupload.php";
 
 
                 Log.e("uri", url );

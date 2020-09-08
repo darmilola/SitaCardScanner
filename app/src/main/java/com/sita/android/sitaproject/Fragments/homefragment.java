@@ -62,7 +62,7 @@ public class homefragment extends Fragment implements ScreenShotable {
     private static final String SCAN_FORMATS = "UPC_A,UPC_E,EAN_8,EAN_13,CODE_39,CODE_93,CODE_128,ITF,Codabar,QR";
     private static final String SCAN_MODE = "ONE_D_MODE";
     private static final int REQUEST_CODE = 1;
-    private static final String SearchURL = "http://odsgcard.com.ng/android_project/adminsearchcitizen.php";
+    private static final String SearchURL = "http://sita.epizy.com/adminsearchcitizen.php";
 
 
     private  View containerview;

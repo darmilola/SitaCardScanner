@@ -72,8 +72,8 @@ public class secondpage extends Fragment /* implements  AdapterView.OnItemSelect
     ArrayList<occupations> occupationsArrayList = new ArrayList<>();
     RecyclerView recyclerView;
     OccupationRecyclerViewAdapter occupationRecyclerViewAdapter;
-    private static final String OccupationURL = "http://odsgcard.com.ng/android_project/OccupationGetter.php";
-    private static final String LocalGovernmentURL = "http://odsgcard.com.ng/android_project/localgovernmentgetter.php";
+    private static final String OccupationURL = "http://sita.epizy.com/OccupationGetter.php";
+    private static final String LocalGovernmentURL = "http://sita.epizy.com/localgovernmentgetter.php";
     AlertDialog b,c;
     int flag = 0;
 

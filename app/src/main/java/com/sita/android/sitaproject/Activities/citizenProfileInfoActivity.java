@@ -66,8 +66,8 @@ public class citizenProfileInfoActivity extends AppCompatActivity {
     ArrayList<occupations> occupationsArrayList = new ArrayList<>();
     RecyclerView recyclerView;
     OccupationRecyclerViewAdapter occupationRecyclerViewAdapter;
-    private static final String OccupationURL = "http://odsgcard.com.ng/OccupationGetter.php";
-    private static final String LocalGovernmentURL = "http://odsgcard.com.ng/localgovernmentgetter.php";
+    private static final String OccupationURL = "http://epizy.com/OccupationGetter.php";
+    private static final String LocalGovernmentURL = "http://epizy.com/localgovernmentgetter.php";
     AlertDialog b,c;
     citizeninfo citizeninfo;
     ArrayList<citizeninfo>  citizeninfos;

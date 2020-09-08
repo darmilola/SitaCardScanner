@@ -54,7 +54,7 @@ public class Citizenlogin extends Fragment {
     private static final String SCAN_FORMATS = "UPC_A,UPC_E,EAN_8,EAN_13,CODE_39,CODE_93,CODE_128,ITF,Codabar,QR";
     private static final String SCAN_MODE = "ONE_D_MODE";
     private static final int REQUEST_CODE = 1;
-    private static final String loginurl = "http://odsgcard.com.ng/android_project/SearchCitizenByPinnumber.php";
+    private static final String loginurl = "http://sita.epizy.com/SearchCitizenByPinnumber.php";
     TextView pinnumbertitle;
     Button   citizenlogin;
     TextView or;

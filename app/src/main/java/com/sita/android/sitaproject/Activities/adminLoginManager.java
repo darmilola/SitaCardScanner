@@ -17,7 +17,7 @@ import okhttp3.Response;
 public class adminLoginManager {
 
     private OkHttpClient client = new OkHttpClient();
-    private String LoginURL  = "http://odsgcard.com.ng/Login.php";
+    private String LoginURL  = "http://sita.epizy.com/Login.php";
 
     public void AdminLogin(final adminUser user){
 
