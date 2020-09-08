@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.Citizenlogin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="5dp"
+
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Input your ORIN and Phone Number"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:id="@+id/pinnumbertitle"
+                android:textColor="#ffffff"
+                />
+
+            <EditText
+                android:id="@+id/userpin"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="ORIN"
+                android:drawablePadding="10dp"
+                android:textColorHint="#50000000"
+                android:textColor="@color/black_color"
+                android:layout_marginTop="30dp"
+                android:textSize="25dp"
+                android:maxLines="1"
+                android:inputType="number"
+                android:background="@drawable/logintextfielddesign"
+                android:drawableLeft="@drawable/passworddrawableleft"
+                />
+            <EditText
+                android:id="@+id/userphonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="Phone number"
+                android:drawablePadding="10dp"
+                android:textColorHint="#50000000"
+                android:textColor="@color/black_color"
+                android:layout_marginTop="30dp"
+                android:textSize="25dp"
+                android:maxLines="1"
+                android:inputType="number"
+                android:background="@drawable/logintextfielddesign"
+                android:drawableLeft="@drawable/phonerealdrawableleft"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_marginTop="40dp"
+                android:background="@drawable/loginpagelogindesign"
+                android:text="Log In"
+                android:textAllCaps="false"
+                android:id="@+id/citizenlogin"
+
+                android:textColor="@color/White_color"
+                android:textSize="@dimen/Text_size" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

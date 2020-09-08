@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Sita Scanner</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="Login_button_text">Log In</string>
+    <string name="Forgot_password_text">Forgot Password?</string>
+    <string name="about_text">About</string>
+    <string name="Frequently_asked_question">FAQ</string>
+    <string name="contact_us">Contact us</string>
+    <string name="Register">Register</string>
+    <string name="form_number_hint">Enter Form Number</string>
+    <string name="form_surname_hint">Surname</string>
+    <string name="form_firstname_hint">Firstname</string>
+    <string name="form_othername_hint">Othername</string>
+    <string name="social_benefit_text">Social Benefit</string>
+    <string name="tax_information">Tax Information</string>
+    <string name="health_information">Health Information</string>
+    <string name="Profile_info">Profile Information</string>
+    <string name="Registration_text">Registration</string>
+    <string name="Fingerprint_auth_text">FingerPrint Auth</string>
+    <string name="BarCode_auth_text">BarCode Auth</string>
+    <string name="PinCode_Auth">PinCode Auth</string>
+    <string name="Gender_text">Gender</string>
+    <string name="Male_text">Male</string>
+    <string name="Female_text">Female</string>
+    <string name="phone_number_hint">Enter Phone Number</string>
+    <string name="occupation_hint">Enter Occupation</string>
+    <string name="New_Registration">New Registration</string>
+    <string name="FingerPrint_Auth">FingerPrint Auth</string>
+    <string name="Barcode_Auth">BarCode Auth</string>
+    <string name="pin_code_auth">PinCode Auth</string>
+    <string name="Social_Benefit">Social Benefit</string>
+    <string name="Tax_Information">Tax Information</string>
+    <string name="Health_Information">Health Information</string>
+    <string name="Profile_information">Profile Information</string>
+    <string name="Next">Next</string>
+    <string name="Admin"><u>Admin</u></string>
+    <string name="Not_admin"><u>Not Admin</u></string>
+    <string name="forgot_password"><u>Forgot password</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

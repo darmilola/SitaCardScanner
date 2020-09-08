@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".citizenSocialBenefit">
+<com.evrencoskun.tableview.TableView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/content_container"
+
+    app:column_header_height="50dp"
+    app:row_header_width="50dp"
+    app:selected_color="#000000"
+    app:unselected_color="#50000000">
+</com.evrencoskun.tableview.TableView>
+
+
+</LinearLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Main2Fragment"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginTop="@dimen/big_margin"
+                android:elevation="@dimen/margin_10dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/newregistrationlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/first_color_design"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/newregistrationimage"
+                        android:layout_width="@dimen/margin_90dp"
+                        android:layout_height="@dimen/margin_90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/newregistration" />
+
+                    <TextView
+                        android:id="@+id/newregisterationtext"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+
+                        android:text="@string/New_Registration"
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/newRegistrationfrontarrow"
+                        android:layout_width="@dimen/margin_60dp"
+                        android:layout_height="@dimen/margin_60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:elevation="@dimen/margin_20dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/thumbprintlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/second_color_design"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/fingerprintimage"
+                        android:layout_width="@dimen/margin_90dp"
+                        android:layout_height="@dimen/margin_90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_30dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/thumbprintnew" />
+
+                    <TextView
+                        android:id="@+id/fingerprintauth"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:layout_weight="1"
+
+                        android:text="@string/FingerPrint_Auth"
+
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/fingerprintfrontarrow"
+                        android:layout_width="@dimen/margin_60dp"
+                        android:layout_height="@dimen/margin_60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:elevation="@dimen/margin_20dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/barcodelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/third_color"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/barcodeimage"
+                        android:layout_width="@dimen/margin_90dp"
+                        android:layout_height="@dimen/margin_90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/barcodereal" />
+
+                    <TextView
+                        android:id="@+id/barcodeauthtext"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_marginLeft="@dimen/margin_30dp"
+
+                        android:layout_weight="1"
+                        android:text="@string/Barcode_Auth"
+
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/barcode_front_arrow"
+                        android:layout_width="@dimen/margin_60dp"
+                        android:layout_height="@dimen/margin_60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+                        android:layout_marginRight="@dimen/margin_10dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:elevation="@dimen/margin_20dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/pincode_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:background="@color/fourth_color"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/pincode_Image"
+                        android:layout_width="@dimen/margin_70dp"
+                        android:layout_height="@dimen/margin_70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_20dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/passswordimage" />
+
+                    <TextView
+                        android:id="@+id/pincodtextview"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_20dp"
+
+                        android:layout_weight="1"
+
+                        android:text="@string/pin_code_auth"
+
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/pincode_auth_image"
+                        android:layout_width="@dimen/margin_60dp"
+                        android:layout_height="@dimen/margin_60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+
+                        android:layout_marginRight="@dimen/margin_10dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

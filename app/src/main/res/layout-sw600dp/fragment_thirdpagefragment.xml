@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    android:orientation="vertical"
+
+    tools:context="com.sita.android.sitaproject.Fragments.Thirdpagefragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/uploadimage_icon_height"
+        android:src="@drawable/uploadimageicon"
+        android:layout_gravity="center"
+        android:id="@+id/imageupload"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin_20dp"
+       />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/Text_size"
+        
+        android:text="Upload Profile Picture"
+        android:textColor="@color/White_color"
+        android:id="@+id/uploadimagebutton"
+        android:background="@drawable/uploadpicbuttondesign"
+        android:layout_margin="@dimen/margin_10dp"/>
+
+</LinearLayout>

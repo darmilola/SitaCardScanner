@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/citizendrawerlayout"
+    >
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:id="@+id/citizen_container_frame"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/citizen_content_overlay"
+            android:orientation="vertical"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/citizen_content_frame"
+            android:orientation="vertical"
+            />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/citizentoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:background="#99010002"
+            android:minHeight="?attr/actionBarSize">
+
+            <TextView
+                android:id="@+id/citizentoolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Information"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+        </android.support.v7.widget.Toolbar>
+    </io.codetail.widget.RevealFrameLayout>
+
+
+
+    <ScrollView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:id="@+id/citizenscrollview"
+
+        android:layout_gravity="start|bottom"
+        >
+
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/citizen_left_drawer"
+            android:orientation="vertical"
+
+
+            android:divider="@android:color/transparent">
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.v4.widget.DrawerLayout>

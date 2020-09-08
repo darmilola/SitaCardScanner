@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newregback"
+    tools:context="com.sita.android.sitaproject.Activities.Registration">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="@dimen/registration_back_image_size"
+                android:layout_height="@dimen/registration_back_image_size"
+
+                android:id="@+id/backimage"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:src="@drawable/backarrow"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newRegistrationtitle"
+                android:text="New Registration"
+
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_marginLeft="@dimen/margin_40dp"
+                android:textSize="@dimen/big_text_size"
+                android:textColor="@color/White_color"/>
+
+
+        </LinearLayout>
+
+        <com.badoualy.stepperindicator.StepperIndicator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stpi_stepCount="3"
+
+
+            android:id="@+id/stepindicator"
+            app:stpi_lineColor="#504285F4"
+            app:stpi_circleColor="@color/indicator_color"
+            app:stpi_showDoneIcon="true"
+            app:stpi_animDuration="400"
+            app:stpi_circleRadius="@dimen/step_indicator_radius"
+            app:stpi_lineDoneColor="@color/indicator_color"
+            app:stpi_indicatorColor="@color/indicator_color"
+            app:stpi_indicatorRadius="@dimen/step_indicator_dotcolor_radius"
+            app:stpi_lineMargin="0dp"
+            app:stpi_lineStrokeWidth="@dimen/step_indicator_line_and_circle_stroke_width"
+            app:stpi_circleStrokeWidth="@dimen/step_indicator_line_and_circle_stroke_width"
+
+            >
+
+
+        </com.badoualy.stepperindicator.StepperIndicator>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.sita.android.sitaproject.Models.Noswipeviewpager
+                android:id="@+id/myvewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></com.sita.android.sitaproject.Models.Noswipeviewpager>
+
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_layout_height"
+
+                android:gravity="bottom"
+                android:id="@+id/registrationtoolbar"
+
+
+                android:background="@color/tool_bar_background"
+
+                android:layout_gravity="bottom"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_50dp"
+                    android:gravity="center"
+                    android:id="@+id/toolbarbutton"
+                    android:textSize="@dimen/Text_size"
+
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:background="@drawable/buttondesign"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_marginBottom="@dimen/margin_20dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White_color"
+                    android:text="@string/Next"/>
+
+
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

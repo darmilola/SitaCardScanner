@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05000000"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context="com.sita.android.sitaproject.Fragments.firstpage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:textSize="@dimen/margin_20dp"
+                android:id="@+id/orinnumbertitle"
+                android:textColor="@color/White_color"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:text="ORIN "/>
+
+
+            <EditText
+                android:id="@+id/orinnumbervalue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter ORIN"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/formnumberrealdrawableleft"
+                android:imeOptions="actionUnspecified"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/whitebutton"
+                android:textColor="#000000"
+                android:textColorHint="#60000000"
+                android:textSize="20dp"
+                android:maxLines="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:textSize="20dp"
+                android:id="@+id/formnumbertext"
+                android:textColor="@color/White_color"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:text="Form Number"/>
+
+
+            <EditText
+                android:id="@+id/formnumber"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Enter Form Number"
+                android:layout_margin="10dp"
+
+                android:imeOptions="actionUnspecified"
+                android:inputType="number"
+                android:drawableLeft="@drawable/formnumberrealdrawableleft"
+                android:drawablePadding="@dimen/margin_10dp"
+
+                android:background="@drawable/whitebutton"
+                android:textColor="#000000"
+                android:textColorHint="#60000000"
+                android:textSize="20dp"
+
+                android:maxLines="1"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:textSize="20dp"
+                android:id="@+id/surnametext"
+                android:textColor="@color/White_color"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:text="Surname"/>
+
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Enter Surname"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/namerealdrawableleft"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:background="@drawable/whitebutton"
+                android:textColor="#000000"
+                android:textColorHint="#60000000"
+                android:layout_margin="10dp"
+
+                android:imeOptions="actionUnspecified"
+
+                android:maxLines="1"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:textSize="20dp"
+                android:id="@+id/firstnametext"
+                android:textColor="@color/White_color"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:text="First Name"/>
+
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Firstname"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/namerealdrawableleft"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:layout_marginBottom="@dimen/margin_20dp"
+                android:background="@drawable/whitebutton"
+
+                android:textColor="#000000"
+                android:textColorHint="#60000000"
+                android:layout_margin="10dp"
+
+                android:imeOptions="actionUnspecified"
+
+                android:maxLines="1"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:textSize="20dp"
+                android:id="@+id/othernametext"
+                android:textColor="@color/White_color"
+
+                android:text="Other Name"/>
+
+
+            <EditText
+                android:id="@+id/othername"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Othername"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/namerealdrawableleft"
+                android:drawablePadding="@dimen/margin_10dp"
+
+                android:background="@drawable/whitebutton"
+
+
+                android:layout_marginBottom="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#60000000"
+
+
+                android:maxLines="1"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

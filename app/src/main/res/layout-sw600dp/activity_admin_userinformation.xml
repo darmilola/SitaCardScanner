@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/citizeninfotoolbar"
+        android:background="#99010002">
+        <TextView
+            android:id="@+id/citizeninformationtoolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Citizen Information"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/citizeninfotoolbar"
+        >
+
+        <LinearLayout
+            android:id="@+id/userinfocontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginTop="20dp"
+                android:elevation="@dimen/margin_10dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/newsocialbenefitlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/first_color_design"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/newsocialbenefitimage"
+                        android:layout_width="@dimen/margin_90dp"
+                        android:layout_height="@dimen/margin_90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/socialbenefit" />
+
+                    <TextView
+                        android:id="@+id/adminnewsocialbenefittext"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+
+                        android:text="@string/Social_Benefit"
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/newsocialbenefitfrontarrow"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:elevation="@dimen/margin_20dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/taxinfolayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/second_color_design"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/taxinfoimage"
+                        android:layout_width="@dimen/margin_90dp"
+                        android:layout_height="@dimen/margin_90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_30dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/taxinfoicon" />
+
+                    <TextView
+                        android:id="@+id/admintaxinfotext"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:layout_weight="1"
+
+                        android:text="@string/Tax_Information"
+
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/taxinfofrontarrow"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:elevation="@dimen/margin_20dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/healthlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/third_color"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/healthinfoimage"
+                        android:layout_width="@dimen/margin_90dp"
+                        android:layout_height="@dimen/margin_90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_40dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/healthinfo" />
+
+                    <TextView
+                        android:id="@+id/adminhealthinfotext"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_marginLeft="@dimen/margin_30dp"
+
+                        android:layout_weight="1"
+                        android:text="@string/Health_Information"
+
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/health_front_arrow"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+                        android:layout_marginRight="@dimen/margin_10dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_design_card_view_height"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:elevation="@dimen/margin_20dp"
+                app:cardCornerRadius="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:id="@+id/profile_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@color/fourth_color"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/profile_Image"
+                        android:layout_width="@dimen/margin_70dp"
+                        android:layout_height="@dimen/margin_70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_20dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/userprofile"  />
+
+                    <TextView
+                        android:id="@+id/adminprofiletextview"
+                        android:layout_width="@dimen/new_design_textview_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_20dp"
+
+                        android:layout_weight="1"
+
+                        android:text="@string/Profile_information"
+
+                        android:textColor="@color/White_color"
+                        android:textSize="@dimen/new_design_text_size" />
+
+                    <ImageView
+                        android:id="@+id/profile_frontarrow_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_30dp"
+
+                        android:layout_marginRight="@dimen/margin_10dp"
+
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/frontarrow" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

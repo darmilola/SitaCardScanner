@@ -1,0 +1,231 @@
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_marginTop="@dimen/margin_10dp"
+android:orientation="vertical"
+android:layout_marginBottom="@dimen/margin_20dp"
+tools:context="com.sita.android.sitaproject.Fragments.secondpage">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_70dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Gender_text"
+
+                android:textColor="@color/White_color"
+                android:id="@+id/genderTitle"
+
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:textSize="20dp"
+
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:id="@+id/genderradiogroup"
+
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Male_text"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:id="@+id/maleradiobutton"
+                    android:textColor="@color/White_color"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/female"
+                    android:textColor="@color/White_color"
+                    android:textSize="20dp"
+                    android:text="@string/Female_text"/>
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:textSize="20dp"
+            android:id="@+id/phonenumbertitle"
+            android:textColor="@color/White_color"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="Phone Number"/>
+
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/phone_number_hint"
+
+            android:layout_margin="@dimen/margin_10dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/phonerealdrawableleft"
+            android:drawablePadding="10dp"
+            android:textColorHint="#60000000"
+            android:imeOptions="actionUnspecified"
+            android:inputType="number"
+            android:background="@drawable/whitebutton"
+
+            android:textSize="20dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:textSize="@dimen/margin_20dp"
+            android:id="@+id/residentialaddresstitle"
+            android:textColor="@color/White_color"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="Residential Address"/>
+
+        <EditText
+            android:id="@+id/residentialaddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Residential address"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_margin="@dimen/margin_10dp"
+            android:textColor="#000000"
+            android:textColorHint="#60000000"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:background="@drawable/whitebutton"
+
+            android:textSize="20dp"
+
+            android:maxLines="1"
+            android:drawableLeft="@drawable/occupationrealdrawableleft"
+            android:drawablePadding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:textSize="@dimen/margin_20dp"
+            android:id="@+id/occupationtitle"
+            android:textColor="@color/White_color"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="Occupation"/>
+
+        <EditText
+            android:id="@+id/ocupation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/occupation_hint"
+
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_margin="@dimen/margin_10dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/occupationrealdrawableleft"
+            android:drawablePadding="10dp"
+            android:textColorHint="#60000000"
+            android:imeOptions="actionUnspecified"
+
+            android:background="@drawable/whitebutton"
+
+            android:textSize="20dp"
+
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:textSize="@dimen/margin_20dp"
+            android:id="@+id/localgovernmenttitle"
+            android:textColor="@color/White_color"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="Local Government"/>
+
+        <EditText
+            android:id="@+id/localgovernmentvalue"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Local Goverment"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_margin="@dimen/margin_10dp"
+            android:textColor="#000000"
+            android:textColorHint="#60000000"
+            android:imeOptions="actionUnspecified"
+            android:background="@drawable/whitebutton"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/occupationrealdrawableleft"
+            android:drawablePadding="10dp"
+            />
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:textSize="20dp"
+            android:id="@+id/maritalstatustitle"
+            android:textColor="@color/White_color"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="Marital Status"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/whitebutton"
+            android:popupBackground="@color/homefragment_colordesign"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginBottom="120dp"
+            style="@style/myspinneritemstyle"
+            android:id="@+id/maritalspinner">
+
+        </Spinner>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#92010002</color>
+    <color name="colorAccent">#ee60ac</color>
+    <color name="centerbuttoncolor">#4285F4</color>
+    <color name="texthintcolor">#90ffffff</color>
+    <color name="my_spinner_text_color">#ffffff</color>
+    <color name="Space_active_item_color">#000000</color>
+    <color name="space_inactive_item_color">#c8c8c8</color>
+    <color name="Space_background_color">#f1f0f0</color>
+    <color name="White_color">#ffffff</color>
+    <color name="black_color">#000000</color>
+    <color name="homepage_fragment_background">#fafafa</color>
+    <color name="hint_text_color">#c8c8c8</color>
+
+    <color name="userinfo_textdesign">#ee60ac</color>
+    <color name="first_color_design">#f2c846</color>
+    <color name="second_color_design">#f133ab</color>
+    <color name="third_color">#1acec8</color>
+    <color name="fourth_color">#80c21d</color>
+    <color name="homefragment_colordesign">#4285F4</color>
+    <color name="indicator_color">#4285F4</color>
+    <color name="tool_bar_background">#90ffffff</color>
+    <color name="indicator_line_color">#504285F4</color>
+</resources>
